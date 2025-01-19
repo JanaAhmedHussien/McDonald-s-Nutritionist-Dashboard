@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+#piechartdiv{
+    height: 400px;
+    float: right;
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+
+#barchartdiv{
+    height: 400px;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#horizontalbarchartdiv{
+    height: 300px;
+    float: left;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#mapchartdiv{
+    height: 300px;
+    float: right;
+    padding: 10px;
+    width: 40%;
+    margin-bottom: 20px;
+}

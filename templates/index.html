@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mcdonald's health</title>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <script src="/static/piechart.js"></script>
+    <script src="/static/barchart1.js"></script>
+    <script src="/static/horizontalbar.js"></script>
+    <script src="/static/mapchart.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Mcdonald's health</h1>
+    
+        <div id ="piechartdiv"><div class="piechart-label"> Percentage of Menu Items by Category </div></div>
+        <div id="barchartdiv">
+            <div class="barchart-label"> Nutritional Breakdown by Category
+                <div class="selectbox">
+                    <select id="HealthCategory" onchange="getData()">
+                        <option value="Carbohydrates"> Carbohdrates</option>
+                        <option value="Sugars">Sugars</option>
+                        <option value="Protein">Protein</option>
+                        <option value="Calories">Calories</option>
+                        <option value="Total Fat">Fats</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id ="horizontalbarchartdiv"><div class="horizontalbarchart-label">Top 5 Menu Items in Each Nutrient Category </div></div>
+        <div id ="mapchartdiv"><div class="mapchart-label">Number of branches of Mcdonald</div></div>
+</body>
+</html>
+
+

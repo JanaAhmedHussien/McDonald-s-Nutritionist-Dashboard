@@ -1,0 +1,9 @@
+#piechartdiv{
+    width:50%;
+    height: 400px;
+}
+
+
+.container{
+    display:flex;
+}
